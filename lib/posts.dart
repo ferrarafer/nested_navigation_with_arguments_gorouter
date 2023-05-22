@@ -22,65 +22,80 @@ class Posts extends StatelessWidget {
               MaterialButton(
                 child: const Text('Section 1'),
                 onPressed: () {
-                  context.pushNamed(
-                    'section',
-                    pathParameters: {
-                      'postId': 'flutter-web',
-                      'sectionId': 'section-1',
-                    },
-                    extra: r.nextInt(100).toString(),
+                  Router.neglect(
+                    context,
+                    () => context.goNamed(
+                      'section',
+                      pathParameters: {
+                        'postId': 'flutter-web',
+                        'sectionId': 'section-1',
+                      },
+                      extra: r.nextInt(100).toString(),
+                    ),
                   );
                 },
               ),
               MaterialButton(
                 child: const Text('Section 2'),
                 onPressed: () {
-                  context.pushNamed(
-                    'section',
-                    pathParameters: {
-                      'postId': 'flutter-web',
-                      'sectionId': 'section-2',
-                    },
-                    extra: r.nextInt(100).toString(),
+                  Router.neglect(
+                    context,
+                    () => context.goNamed(
+                      'section',
+                      pathParameters: {
+                        'postId': 'flutter-web',
+                        'sectionId': 'section-2',
+                      },
+                      extra: r.nextInt(100).toString(),
+                    ),
                   );
                 },
               ),
               MaterialButton(
                 child: const Text('Section 3'),
                 onPressed: () {
-                  context.pushNamed(
-                    'section',
-                    pathParameters: {
-                      'postId': 'flutter-web',
-                      'sectionId': 'section-3',
-                    },
-                    extra: r.nextInt(100).toString(),
+                  Router.neglect(
+                    context,
+                    () => context.goNamed(
+                      'section',
+                      pathParameters: {
+                        'postId': 'flutter-web',
+                        'sectionId': 'section-3',
+                      },
+                      extra: r.nextInt(100).toString(),
+                    ),
                   );
                 },
               ),
               MaterialButton(
                 child: const Text('Section 4'),
                 onPressed: () {
-                  context.pushNamed(
-                    'section',
-                    pathParameters: {
-                      'postId': 'flutter-web',
-                      'sectionId': 'section-4',
-                    },
-                    extra: r.nextInt(100).toString(),
+                  Router.neglect(
+                    context,
+                    () => context.goNamed(
+                      'section',
+                      pathParameters: {
+                        'postId': 'flutter-web',
+                        'sectionId': 'section-4',
+                      },
+                      extra: r.nextInt(100).toString(),
+                    ),
                   );
                 },
               ),
               MaterialButton(
                 child: const Text('Section 5'),
                 onPressed: () {
-                  context.pushNamed(
-                    'section',
-                    pathParameters: {
-                      'postId': 'flutter-web',
-                      'sectionId': 'section-5',
-                    },
-                    extra: r.nextInt(100).toString(),
+                  Router.neglect(
+                    context,
+                    () => context.goNamed(
+                      'section',
+                      pathParameters: {
+                        'postId': 'flutter-web',
+                        'sectionId': 'section-5',
+                      },
+                      extra: r.nextInt(100).toString(),
+                    ),
                   );
                 },
               ),
